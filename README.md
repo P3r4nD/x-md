@@ -1,6 +1,6 @@
 # x-md
 
-Script que descarga un artículo de X, lo convierte a Markdown (`<slug>/<slug>.md`), guarda sus imágenes en `<slug>/imgs/` y, opcionalmente, lo traduce con LibreTranslate (`<slug>-<IDIOMA>.md`).
+Script que descarga un artículo de X, lo convierte a Markdown (`<slug>/<slug>.md`), guarda sus imágenes en `<slug>/imgs/` y, opcionalmente, lo traduce con [LibreTranslate](https://docs.libretranslate.com/es/guides/installation/) (`<slug>-<IDIOMA>.md`).
 
 Por defecto el `.html` intermedio se elimina tras generar el `.md` (`DELETE_HTML_AFTER_MD = True` en `xmd.py`; ponlo a `False` para conservarlo).
 
